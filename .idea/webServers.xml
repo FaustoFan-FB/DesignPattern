@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e445f262-f6d6-4eaa-a63c-c3fec6f81bf1" name="FaustoFan_WebServer" url="http://localhost">
+        <fileTransfer mountedRoot="F:\PHP\res" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
