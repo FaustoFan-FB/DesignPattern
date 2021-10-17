@@ -341,7 +341,7 @@
         <abstract-items>
           <item id="45c80d720c484316a0899969a030a350" cid="C006" type="class" name="DaoSupport" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="10/15/2021 17:58:19" visibility="public" is-abstract="true">
             <tagged-values>
-              <tagged-value id="tva4c7bbee998144869a038bd7e75bbedd" name="namespace" type="text" multiple="false" value="com.fausto.generalization" />
+              <tagged-value id="tva4c7bbee998144869a038bd7e75bbedd" name="namespace" type="text" multiple="false" value="fausto.generalization" />
             </tagged-values>
             <operations>
               <operation id="oa5c5896bf519412584720c8b294efa3d486" cid="ELEM001" name="save" creation-date="10/15/2021 17:58:19" type="" type-id="" visibility="public">
