@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp1d68862c5ba9441bb63c4b527260d1cf">
+  <meta>
+    <name>Factory_patterns</name>
+    <authors> 樊彪</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>79</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>5</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-f8f92afca797495a8a679092fdac4384" name="" task-id-sequence="0">
+    <persons>
+      <person id="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS">
+        <first-name />
+        <last-name>樊彪</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-9c265cf0992f45fcab71e95ece2c849f" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="void" tid="" name="void" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pf2b5a5a7228848d58bacd86a2fb076e2_391833086" name="SingleFactory" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/22/2021 14:08:07</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p4b1dd19ba82c4bd28eb1bb4c8fb5a154_229318745" name="Case" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-14">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/22/2021 14:08:37</creation-date>
+          <change-date>10/22/2021 14:11:22</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="ed2018e9a78e437eaad4daa32b73c150" cid="C001" type="class" name="Pizza" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="10/22/2021 14:08:47">
+            <operations>
+              <operation id="o7f3a6be53df246809eb665d0bfb336e7759" cid="ELEM001" name="prepare" creation-date="10/22/2021 14:09:04" type="void" type-id="void" visibility="public" />
+              <operation id="o936f957cb6184c24bf0927a74015eb3d284" cid="ELEM002" name="bake" creation-date="10/22/2021 14:09:05" type="void" type-id="void" visibility="public" />
+              <operation id="oea7a746bade54aee8096640b24cbfe57681" cid="ELEM003" name="cut" creation-date="10/22/2021 14:09:05" type="void" type-id="void" visibility="public" />
+              <operation id="o6396e1e445d24de780384924f2363416102" cid="ELEM004" name="box" creation-date="10/22/2021 14:09:06" type="void" type-id="void" visibility="public" />
+            </operations>
+          </item>
+          <item id="f8b0605465c44a9aab5ad39fb1411f1a" cid="C002" type="class" name="ChessPizza" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="10/22/2021 14:08:50" />
+          <item id="1b175250f0544052afa073652df5faea" cid="C003" type="class" name="GreekPizza" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="10/22/2021 14:08:52" />
+          <item id="0821a9c94c9e47bea4bdae9188d8cbff" cid="GNR001" type="generalization" name="" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="10/22/2021 14:11:07" from="f8b0605465c44a9aab5ad39fb1411f1a" to="ed2018e9a78e437eaad4daa32b73c150" visibility="package" />
+          <item id="61fb706c60e94a1282dec981f55af46f" cid="GNR002" type="generalization" name="" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpAwSEOcbEZ0Lts4uDGnycvx/uLPgS" creation-date="10/22/2021 14:11:21" from="1b175250f0544052afa073652df5faea" to="ed2018e9a78e437eaad4daa32b73c150" visibility="package" />
+        </abstract-items>
+        <layer id="922d523e53614abf97ee07e0eb32d932" name="Default" visible="true" enabled="true" locked="false">
+          <item id="ed2018e9a78e437eaad4daa32b73c150" iid="71ddd06e112140499601f39d647518c9" creation-date="10/22/2021 14:08:47" order-index="0" type="entity">
+            <layout ax="430" ay="100" awidth="140" aheight="120" x="431" y="95" width="140" height="120" rotation-center="0,20" />
+            <class />
+          </item>
+          <item id="f8b0605465c44a9aab5ad39fb1411f1a" iid="4057ce418c2f454e89d01be5fa792aa1" creation-date="10/22/2021 14:08:50" order-index="1" type="entity">
+            <layout ax="300" ay="280" awidth="140" aheight="50" x="300" y="280" width="140" height="50" rotation-center="0,55" />
+            <class />
+          </item>
+          <item id="1b175250f0544052afa073652df5faea" iid="b923f410404e4467819d0da2af27e762" creation-date="10/22/2021 14:08:52" order-index="2" type="entity">
+            <layout ax="600" ay="270" awidth="130" aheight="50" x="600" y="270" width="130" height="50" rotation-center="5,55" />
+            <class />
+          </item>
+          <item id="0821a9c94c9e47bea4bdae9188d8cbff" iid="e1b36b7e8d7a46668bd452908d3ad403" creation-date="10/22/2021 14:11:07" order-index="3" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="392" y1="280" x2="446" y2="220" start-border-pos="0.165024621146066" end-border-pos="0.721059090750558" name-position="0,20">
+              <points>
+                <point x="392" y="280" />
+                <point x="446" y="220" />
+              </points>
+            </layout>
+            <relation from="f8b0605465c44a9aab5ad39fb1411f1a" from-iid="4057ce418c2f454e89d01be5fa792aa1" to="ed2018e9a78e437eaad4daa32b73c150" to-iid="71ddd06e112140499601f39d647518c9" />
+          </item>
+          <item id="61fb706c60e94a1282dec981f55af46f" iid="4385b941c2134e548735875d40617cc6" creation-date="10/22/2021 14:11:21" order-index="4" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="634" y1="270" x2="570" y2="217" start-border-pos="0.0662393423227163" end-border-pos="0.494318199157715" name-position="0,20">
+              <points>
+                <point x="634" y="270" />
+                <point x="570" y="217" />
+              </points>
+            </layout>
+            <relation from="1b175250f0544052afa073652df5faea" from-iid="b923f410404e4467819d0da2af27e762" to="ed2018e9a78e437eaad4daa32b73c150" to-iid="71ddd06e112140499601f39d647518c9" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
